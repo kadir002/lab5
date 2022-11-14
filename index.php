@@ -3,7 +3,7 @@
     require_once "controllers/home_controller.php";
     require_once "controllers/contact_controller.php";
     require_once "controllers/user_controller.php";
-
+    require_once "controllers/product_controller.php";
     if(count($_GET) == 0){
         call_user_func("Home_Controller::index");
     }else{

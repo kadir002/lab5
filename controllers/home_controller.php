@@ -9,5 +9,17 @@
             require_once "views/home/home.php";
             require_once "views/templates/footer.php";
         }
+
+
+        public static function search(){
+        
+            require_once "views/templates/header.php";
+            require_once "views/templates/navbar.php";
+            require_once "views/home/home.php";
+            require_once "views/templates/footer.php";
+        }
     }
+
+
+   
 ?>

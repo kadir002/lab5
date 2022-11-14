@@ -20,9 +20,11 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comentario</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <?php $controller = Security::encode("Contact"); $method = Security::encode("create"); ?>
+                        <?php $controller = Security::encode("Contact"); $method = Security::encode("create"); 
+                        $controller2 = Security::encode("product"); $method2 = Security::encode("viewsproduct"); 
+                        ?>
                         <a class="dropdown-item" href="<?php echo "index.php?c=".$controller."&m=".$method;?>">Crear</a>
-                        <a class="dropdown-item" href="#">Ver</a>
+                        <a class="dropdown-item"  href="<?php echo "index.php?c=".$controller2."&m=".$method2;?>">Ver</a>
                     </div>
                 </li>
             </ul>

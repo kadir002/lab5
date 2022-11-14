@@ -19,21 +19,21 @@
                 "user" => "anthony2001",
                 "password" => "8c6fdbde59163a75484ce956cd540a874642ba83",
                 "salt" => "bVdwP5I1O5fZ",
-                "name" => "Anthony Ledezma"
+                "name" => "Kadir rodriguez"
             ];
 
             $table[] = [
                 "user" => "uriel2001",
                 "password" => "ae8a8cc7d4c411a681c5044372ddab23e7eb90e7",
                 "salt" => "14oT7vLCv3mR",
-                "name" => "Uriel Ledezma"
+                "name" => "miguel santiago"
             ];
 
             $table[] = [
-                "user" => "lasso2001",
+                "user" => "cesarlisto",
                 "password" => "547a85122a2a8461823d8613b671ab6aae0ced8f",
                 "salt" => "uckaN1M80Ufw",
-                "name" => "Lasso Ledezma"
+                "name" => "cesar sorio"
             ];
 
             foreach($table as $t){
